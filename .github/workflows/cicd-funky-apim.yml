@@ -1,0 +1,19 @@
+﻿name: cicd_funky_apim
+concurrency: cicd_funky_apim
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request: 
+    branches:
+      - main
+
+
+jobs:
+  ci:
+    name: CI
+    uses: ./.github/workflows/ci-application.yml
+    with:
+      project-path: src/FunkyOrders/FunkyOrders.csproj
