@@ -1,0 +1,25 @@
+﻿<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--        Analyzers-->
+<!--    <PackageVersion Include="AsyncFixer" Version="1.6.0" />-->
+<!--    <PackageVersion Include="Meziantou.Analyzer" Version="2.0.199" />-->
+<!--    <PackageVersion Include="Microsoft.Extensions.Azure" Version="1.11.0" />-->
+<!--    <PackageVersion Include="Roslynator.Analyzers" Version="4.13.1" />-->
+<!--    <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.8.0.113526" />-->
+    
+    <!--        Azure Functions-->
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="2.0.0" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.0.2" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk.Analyzers" Version="1.2.2" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.3.0" />
+    <PackageVersion Include="Microsoft.ApplicationInsights.WorkerService" Version="2.23.0" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.ApplicationInsights" Version="2.0.0" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Core" Version="2.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.23.0" />
+    <PackageVersion Include="Azure.Messaging.ServiceBus" Version="7.19.0" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+  </ItemGroup>
+</Project>

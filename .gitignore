@@ -3,4 +3,6 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+src/FunkyOrders/local.settings.json
 .idea
+*.DotSettings.user

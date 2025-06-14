@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using FunkyOrders;
+using Microsoft.Extensions.Hosting;
 
-Console.WriteLine("Hello, World!");
+using var host = Bootstrapper.GetHost();
+await host.RunAsync();
